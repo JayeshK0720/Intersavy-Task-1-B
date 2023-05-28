@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact_Us</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <style>
+        body{
+            background-image: url("./images/bg3.jpg");
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        body{
+            background-color: ivory;
+        }
+
+        .h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 44px;
+            color: rgba(20, 68, 214, 0.873);
+        }
+
+        textarea, input, select{
+            background-color: #E0FFFF;
+        }
+
+        .new{
+            margin: 20px;
+            padding: 2px;
+            display: flex;
+            align-items: center; /*vertical alignment*/
+            flex-direction: column;
+
+        }
+
+        .row{
+            background-color: rgba(21, 93, 248, 0.362);
+            border-color: darkgreen;
+            border-style: solid;
+            border-width: 4px;
+            margin: 20px;
+            padding: 20px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="new">
+        <h1 class="h1">📄Contact Me📄</h1>
+        <div class="row">
+        <form action="">
+                <br><br>
+                <label for="name1">First_name:</label>
+                <input id="name1" type="text" placeholder="Enter First_name Here">
+                <label for="name2">Last_name:</label>
+                <input id="name2" type="text" placeholder="Enter Last_name Here">
+                <br><br>
+
+                <label for="Gender">Choose your Gender:</label>
+                <select name="Type" id="Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Any_Other">Any_Other</option>
+                    <option value="Prefer No to Say">Prefer No to Say</option>
+                </select>
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="abc@gmail.com"> 
+                <br><br>    
+
+                <textarea name="contactus" id="contactus" cols="40" rows="10" placeholder="Contact Us"></textarea>
+
+                <br><br>
+                
+                <input type="Reset">
+                <input type="Submit">
+                
+                
+        </form>
+    </div>
+    </div>
+</body>
+</html>
